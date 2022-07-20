@@ -20,7 +20,10 @@
     <artifactId>ranger-tagsync</artifactId>
     <name>Tag Synchronizer</name>
     <description>Tag Synchronizer Java Process</description>
-    <packaging>jar</packaging>
+    <modules>
+        <module>plugin_nestedstructure</module>
+    </modules>
+    <packaging>pom</packaging>
     <parent>
         <artifactId>ranger</artifactId>
         <groupId>org.apache.ranger</groupId>
